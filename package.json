@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.15",
     "@upstash/redis": "^1.29.0",
     "csv-parser": "^3.0.0",
     "dotenv": "^16.4.5",

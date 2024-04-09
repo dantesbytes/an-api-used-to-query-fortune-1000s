@@ -2,6 +2,9 @@
 
 import Image from "next/image"; 
 import { useEffect, useState } from "react";
+import { AppBar, Toolbar, InputBase, IconButton, Typography } from '@mui/material';
+import SearchIcon from '@mui/icons-material/Search';
+
 
 export default function Home() {
     const [input, setInput] = useState<string>('')
